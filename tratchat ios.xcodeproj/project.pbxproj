@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3501D5B322572299009F6393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501D5B222572299009F6393 /* AppDelegate.swift */; };
+		3501D5B522572299009F6393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501D5B422572299009F6393 /* ViewController.swift */; };
+		3501D5B822572299009F6393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3501D5B622572299009F6393 /* Main.storyboard */; };
+		3501D5BA2257229A009F6393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3501D5B92257229A009F6393 /* Assets.xcassets */; };
+		3501D5BD2257229A009F6393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3501D5BB2257229A009F6393 /* LaunchScreen.storyboard */; };
+		3501D5C82257229B009F6393 /* tratchat_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501D5C72257229B009F6393 /* tratchat_iosTests.swift */; };
+		3501D5D32257229B009F6393 /* tratchat_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501D5D22257229B009F6393 /* tratchat_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3501D5C42257229B009F6393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3501D5A722572299009F6393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3501D5AE22572299009F6393;
+			remoteInfo = "tratchat ios";
+		};
+		3501D5CF2257229B009F6393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3501D5A722572299009F6393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3501D5AE22572299009F6393;
+			remoteInfo = "tratchat ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3501D5AF22572299009F6393 /* tratchat ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tratchat ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3501D5B222572299009F6393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3501D5B422572299009F6393 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3501D5B722572299009F6393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3501D5B92257229A009F6393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3501D5BC2257229A009F6393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3501D5BE2257229A009F6393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3501D5C32257229B009F6393 /* tratchat iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tratchat iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3501D5C72257229B009F6393 /* tratchat_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tratchat_iosTests.swift; sourceTree = "<group>"; };
+		3501D5C92257229B009F6393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3501D5CE2257229B009F6393 /* tratchat iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tratchat iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3501D5D22257229B009F6393 /* tratchat_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tratchat_iosUITests.swift; sourceTree = "<group>"; };
+		3501D5D42257229B009F6393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3501D5AC22572299009F6393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3501D5C02257229B009F6393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3501D5CB2257229B009F6393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3501D5A622572299009F6393 = {
+			isa = PBXGroup;
+			children = (
+				3501D5B122572299009F6393 /* tratchat ios */,
+				3501D5C62257229B009F6393 /* tratchat iosTests */,
+				3501D5D12257229B009F6393 /* tratchat iosUITests */,
+				3501D5B022572299009F6393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3501D5B022572299009F6393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3501D5AF22572299009F6393 /* tratchat ios.app */,
+				3501D5C32257229B009F6393 /* tratchat iosTests.xctest */,
+				3501D5CE2257229B009F6393 /* tratchat iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3501D5B122572299009F6393 /* tratchat ios */ = {
+			isa = PBXGroup;
+			children = (
+				3501D5B222572299009F6393 /* AppDelegate.swift */,
+				3501D5B422572299009F6393 /* ViewController.swift */,
+				3501D5B622572299009F6393 /* Main.storyboard */,
+				3501D5B92257229A009F6393 /* Assets.xcassets */,
+				3501D5BB2257229A009F6393 /* LaunchScreen.storyboard */,
+				3501D5BE2257229A009F6393 /* Info.plist */,
+			);
+			path = "tratchat ios";
+			sourceTree = "<group>";
+		};
+		3501D5C62257229B009F6393 /* tratchat iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				3501D5C72257229B009F6393 /* tratchat_iosTests.swift */,
+				3501D5C92257229B009F6393 /* Info.plist */,
+			);
+			path = "tratchat iosTests";
+			sourceTree = "<group>";
+		};
+		3501D5D12257229B009F6393 /* tratchat iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3501D5D22257229B009F6393 /* tratchat_iosUITests.swift */,
+				3501D5D42257229B009F6393 /* Info.plist */,
+			);
+			path = "tratchat iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3501D5AE22572299009F6393 /* tratchat ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3501D5D72257229B009F6393 /* Build configuration list for PBXNativeTarget "tratchat ios" */;
+			buildPhases = (
+				3501D5AB22572299009F6393 /* Sources */,
+				3501D5AC22572299009F6393 /* Frameworks */,
+				3501D5AD22572299009F6393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tratchat ios";
+			productName = "tratchat ios";
+			productReference = 3501D5AF22572299009F6393 /* tratchat ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3501D5C22257229B009F6393 /* tratchat iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3501D5DA2257229B009F6393 /* Build configuration list for PBXNativeTarget "tratchat iosTests" */;
+			buildPhases = (
+				3501D5BF2257229B009F6393 /* Sources */,
+				3501D5C02257229B009F6393 /* Frameworks */,
+				3501D5C12257229B009F6393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3501D5C52257229B009F6393 /* PBXTargetDependency */,
+			);
+			name = "tratchat iosTests";
+			productName = "tratchat iosTests";
+			productReference = 3501D5C32257229B009F6393 /* tratchat iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3501D5CD2257229B009F6393 /* tratchat iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3501D5DD2257229B009F6393 /* Build configuration list for PBXNativeTarget "tratchat iosUITests" */;
+			buildPhases = (
+				3501D5CA2257229B009F6393 /* Sources */,
+				3501D5CB2257229B009F6393 /* Frameworks */,
+				3501D5CC2257229B009F6393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3501D5D02257229B009F6393 /* PBXTargetDependency */,
+			);
+			name = "tratchat iosUITests";
+			productName = "tratchat iosUITests";
+			productReference = 3501D5CE2257229B009F6393 /* tratchat iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3501D5A722572299009F6393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ryan Trattner";
+				TargetAttributes = {
+					3501D5AE22572299009F6393 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					3501D5C22257229B009F6393 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3501D5AE22572299009F6393;
+					};
+					3501D5CD2257229B009F6393 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3501D5AE22572299009F6393;
+					};
+				};
+			};
+			buildConfigurationList = 3501D5AA22572299009F6393 /* Build configuration list for PBXProject "tratchat ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3501D5A622572299009F6393;
+			productRefGroup = 3501D5B022572299009F6393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3501D5AE22572299009F6393 /* tratchat ios */,
+				3501D5C22257229B009F6393 /* tratchat iosTests */,
+				3501D5CD2257229B009F6393 /* tratchat iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3501D5AD22572299009F6393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3501D5BD2257229A009F6393 /* LaunchScreen.storyboard in Resources */,
+				3501D5BA2257229A009F6393 /* Assets.xcassets in Resources */,
+				3501D5B822572299009F6393 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3501D5C12257229B009F6393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3501D5CC2257229B009F6393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3501D5AB22572299009F6393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3501D5B522572299009F6393 /* ViewController.swift in Sources */,
+				3501D5B322572299009F6393 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3501D5BF2257229B009F6393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3501D5C82257229B009F6393 /* tratchat_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3501D5CA2257229B009F6393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3501D5D32257229B009F6393 /* tratchat_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3501D5C52257229B009F6393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3501D5AE22572299009F6393 /* tratchat ios */;
+			targetProxy = 3501D5C42257229B009F6393 /* PBXContainerItemProxy */;
+		};
+		3501D5D02257229B009F6393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3501D5AE22572299009F6393 /* tratchat ios */;
+			targetProxy = 3501D5CF2257229B009F6393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3501D5B622572299009F6393 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3501D5B722572299009F6393 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3501D5BB2257229A009F6393 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3501D5BC2257229A009F6393 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3501D5D52257229B009F6393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3501D5D62257229B009F6393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3501D5D82257229B009F6393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Q763K2HPW;
+				INFOPLIST_FILE = "tratchat ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.trat.tratchat-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3501D5D92257229B009F6393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Q763K2HPW;
+				INFOPLIST_FILE = "tratchat ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.trat.tratchat-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3501D5DB2257229B009F6393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Q763K2HPW;
+				INFOPLIST_FILE = "tratchat iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.trat.tratchat-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tratchat ios.app/tratchat ios";
+			};
+			name = Debug;
+		};
+		3501D5DC2257229B009F6393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Q763K2HPW;
+				INFOPLIST_FILE = "tratchat iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.trat.tratchat-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tratchat ios.app/tratchat ios";
+			};
+			name = Release;
+		};
+		3501D5DE2257229B009F6393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Q763K2HPW;
+				INFOPLIST_FILE = "tratchat iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.trat.tratchat-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tratchat ios";
+			};
+			name = Debug;
+		};
+		3501D5DF2257229B009F6393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5Q763K2HPW;
+				INFOPLIST_FILE = "tratchat iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.trat.tratchat-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tratchat ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3501D5AA22572299009F6393 /* Build configuration list for PBXProject "tratchat ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3501D5D52257229B009F6393 /* Debug */,
+				3501D5D62257229B009F6393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3501D5D72257229B009F6393 /* Build configuration list for PBXNativeTarget "tratchat ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3501D5D82257229B009F6393 /* Debug */,
+				3501D5D92257229B009F6393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3501D5DA2257229B009F6393 /* Build configuration list for PBXNativeTarget "tratchat iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3501D5DB2257229B009F6393 /* Debug */,
+				3501D5DC2257229B009F6393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3501D5DD2257229B009F6393 /* Build configuration list for PBXNativeTarget "tratchat iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3501D5DE2257229B009F6393 /* Debug */,
+				3501D5DF2257229B009F6393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3501D5A722572299009F6393 /* Project object */;
+}
