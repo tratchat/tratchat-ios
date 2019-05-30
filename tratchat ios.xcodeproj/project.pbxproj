@@ -14,6 +14,7 @@
 		3501D5BD2257229A009F6393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3501D5BB2257229A009F6393 /* LaunchScreen.storyboard */; };
 		3501D5C82257229B009F6393 /* tratchat_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501D5C72257229B009F6393 /* tratchat_iosTests.swift */; };
 		3501D5D32257229B009F6393 /* tratchat_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501D5D22257229B009F6393 /* tratchat_iosUITests.swift */; };
+		3501D61A2257272C009F6393 /* website in Resources */ = {isa = PBXBuildFile; fileRef = 3501D6192257272C009F6393 /* website */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		3501D5CE2257229B009F6393 /* tratchat iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tratchat iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3501D5D22257229B009F6393 /* tratchat_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tratchat_iosUITests.swift; sourceTree = "<group>"; };
 		3501D5D42257229B009F6393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3501D6192257272C009F6393 /* website */ = {isa = PBXFileReference; lastKnownFileType = folder; path = website; sourceTree = "<group>"; };
+		3536D6B3229F91E600D88F86 /* tratchat ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "tratchat ios.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		3501D5A622572299009F6393 = {
 			isa = PBXGroup;
 			children = (
+				3501D6192257272C009F6393 /* website */,
 				3501D5B122572299009F6393 /* tratchat ios */,
 				3501D5C62257229B009F6393 /* tratchat iosTests */,
 				3501D5D12257229B009F6393 /* tratchat iosUITests */,
@@ -97,6 +101,7 @@
 		3501D5B122572299009F6393 /* tratchat ios */ = {
 			isa = PBXGroup;
 			children = (
+				3536D6B3229F91E600D88F86 /* tratchat ios.entitlements */,
 				3501D5B222572299009F6393 /* AppDelegate.swift */,
 				3501D5B422572299009F6393 /* ViewController.swift */,
 				3501D5B622572299009F6393 /* Main.storyboard */,
@@ -193,6 +198,11 @@
 				TargetAttributes = {
 					3501D5AE22572299009F6393 = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					3501D5C22257229B009F6393 = {
 						CreatedOnToolsVersion = 10.2;
@@ -231,6 +241,7 @@
 			files = (
 				3501D5BD2257229A009F6393 /* LaunchScreen.storyboard in Resources */,
 				3501D5BA2257229A009F6393 /* Assets.xcassets in Resources */,
+				3501D61A2257272C009F6393 /* website in Resources */,
 				3501D5B822572299009F6393 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,17 +443,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "tratchat ios/tratchat ios.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Q763K2HPW;
 				INFOPLIST_FILE = "tratchat ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.trat.tratchat-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tratchat.tratchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,17 +463,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "tratchat ios/tratchat ios.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Q763K2HPW;
 				INFOPLIST_FILE = "tratchat ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.trat.tratchat-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tratchat.tratchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
